@@ -47,13 +47,16 @@ console.log(`Mi nombre completo es ${name} ${lastName}`);
 ```
 
 ¿Qué es una función?
-un conjunto de instrucciones que realiza una tarea o calcula un valor
+
+- un conjunto de instrucciones que realiza una tarea o calcula un valor
 
 ¿Cuándo me sirve usar una función en mi código?
-Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida
+
+- Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida
 
 ¿Cuál es la diferencia entre parámetros y argumentos de una función?
-los parámetros son los nombres que aparecen en la definición de una función. Por su parte, los argumentos son los valores que le pasamos (y que, por tanto, recibe) una función
+
+- los parámetros son los nombres que aparecen en la definición de una función. Por su parte, los argumentos son los valores que le pasamos (y que, por tanto, recibe) una función
 
 Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 

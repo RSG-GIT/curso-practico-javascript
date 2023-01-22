@@ -62,7 +62,10 @@ let dineroReal = dineroAhorrado - deudas;
 
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
-- ¿Qué es una función?
+```¿Qué es una función?```
+
+- R/ Las funciones nos permiten encapsular (guardar) bloques de codigo para reutilizarlos y ademas ejecutarlos en el futuro
+
 - ¿Cuándo me sirve usar una función en mi código?
 - ¿Cuál es la diferencia entre parámetros y argumentos de una función?
 
