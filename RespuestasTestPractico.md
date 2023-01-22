@@ -70,9 +70,11 @@ let dineroReal = dineroAhorrado - deudas;
 
 - R/ Nos sirve cuando tenemos variables o bloques de codigo muy parecidos (con cambios que podrian ser parametros o argumentos) que podemos encapsular para relutilizar mas de una vez en el futuro
 
+Tambien nos sirve para ordenar y mejorar la legibilidad de nuestro codigo
+
 ```¿Cuál es la diferencia entre parámetros y argumentos de una función?```
 
--R/ 
+-R/ Las funciones reciben parametros cuando las creamos y les enviamos argumentos cunado las ejecutamos
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
