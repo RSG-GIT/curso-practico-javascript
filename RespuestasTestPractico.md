@@ -86,6 +86,20 @@ const nickname = "juandc";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
+- R/ 
+    funcion completeName(name, lastName){
+        retur name + " " + lastName
+    }
+
+    function saludo(name, lastName, NickName) {
+        const completeName = completeName(name, lastName);
+
+        console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + userName + ".");
+    }
+
+// llamando la funcion//
+
+    saludo("Juanita", "Gallego", "JuGA")
 
 
 ## Condicionales
