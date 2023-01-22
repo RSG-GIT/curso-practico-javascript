@@ -66,8 +66,13 @@ let dineroReal = dineroAhorrado - deudas;
 
 - R/ Las funciones nos permiten encapsular (guardar) bloques de codigo para reutilizarlos y ademas ejecutarlos en el futuro
 
-- ¿Cuándo me sirve usar una función en mi código?
-- ¿Cuál es la diferencia entre parámetros y argumentos de una función?
+```¿Cuándo me sirve usar una función en mi código?```
+
+- R/ Nos sirve cuando tenemos variables o bloques de codigo muy parecidos (con cambios que podrian ser parametros o argumentos) que podemos encapsular para relutilizar mas de una vez en el futuro
+
+```¿Cuál es la diferencia entre parámetros y argumentos de una función?```
+
+-R/ 
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
