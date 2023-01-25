@@ -86,29 +86,36 @@ const nickname = "juandc";
 
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
-- R/ 
-    funcion completeName(name, lastName){
-        retur name + " " + lastName
-    }
 
-    function saludo(name, lastName, NickName) {
-        const completeName = completeName(name, lastName);
+```
+function nombreCompleto(name, lastName) {
+    return name + ' ' + lastName
+}
 
-        console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + userName + ".");
-    }
+function saludo(name, lastname, username) {
+    const completeName = nombreCompleto(name, lastname);
 
-// llamando la funcion//
-
-    saludo("Juanita", "Gallego", "JuGA")
-
+    console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + username + ".");  
+}
+```
 
 ## Condicionales
 
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
-- ¿Qué es un condicional?
-- ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
-- ¿Puedo combinar funciones y condicionales?
+```¿Qué es un condicional?```
+
+R/ Son la forma en que ejecutomos un blouqe de codigo u otro dependiendo de alguna condicion o validacion 
+
+```¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?```
+
+R/ IF (else y else if), Switch
+El condicional if (con else y else if) nos permite hacer validaciones totalmente distintas (si asi queremos) en cada validacion o condicional. En cambio en el switch todos los cases se comparan con la misma variable o condicion que definimos en el swith
+
+
+```¿Puedo combinar funciones y condicionales?```
+
+R/ Si, las funciones pueden encapsular cualquier bloque de codigo incluyendo condicionales.
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 
@@ -130,8 +137,24 @@ switch (tipoDeSuscripcion) {
        break;
 }
 ```
+R/
+
+const tipoDeSuscripcion = "Basic";
+
+if (tipoDeSuscripcion == "Free") {
+    console.log("Solo puedes tomar los cursos gratis");
+  } else if (tipoDeSuscripcion == "Basic") {
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un a;o");
+  } else if (tipoDeSuscripcion == "Expert") {
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+  } else if(tipoDeSuscripcion == "ExpertDuo") {
+    console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+  } else {
+    console.log("No puedes tomar nungun curso");
+  }
 
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
+
 
 > 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
 
