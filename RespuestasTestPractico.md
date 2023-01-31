@@ -174,6 +174,10 @@ R/
 R/
   While, Do While y For
 
+  While: Primero valida el codigo
+  Do While: Primero ejecuta el codigo despues lo valida
+  For: Nos obliga a ver que pasa al principio y al final de cada ejecucion de codigo
+
 ```¿Qué es un ciclo infinito y por qué es un problema?```
 
 R/
