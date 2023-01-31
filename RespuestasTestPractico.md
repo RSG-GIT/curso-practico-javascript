@@ -245,10 +245,32 @@ Respuesta
 
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
-- ¿Qué es un array?
-- ¿Qué es un objeto?
-- ¿Cuándo es mejor usar objetos o arrays?
-- ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+```¿Qué es un array?```
+
+R/ Es una losta de elementos. Ejemplo: 
+```js
+      const array = [2, "jajaja", true, false];
+```
+
+```¿Qué es un objeto?```
+
+R/ Es una losta de elementos, PERO cada elemento tiene un nombre clave. Ejemplo
+```js
+      const obj = {
+        nombre: "Fulanito",
+        edad: 15,
+        comidasFaviritas: ["Pollo Frito", "Vegetales"]
+      };
+```
+
+```¿Cuándo es mejor usar objetos o arrays?```
+
+R/ Array es cuando lo que haremos en un elemento es lo mismo que en todos los demas (esta regla se puede incumplir). Mientras que un objeto cuando los nombres de cada elemento son importantes para nuestro algoritmo.
+
+
+```¿Puedo mezclar arrays con objetos o incluso objetos con arrays?```
+
+R/ Si, los array pueden guardar objetos o incluso objetos con arrays
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
