@@ -257,9 +257,9 @@ R/ Es una losta de elementos. Ejemplo:
 R/ Es una losta de elementos, PERO cada elemento tiene un nombre clave. Ejemplo
 ```js
       const obj = {
-        nombre: "Fulanito",
-        edad: 15,
-        comidasFaviritas: ["Pollo Frito", "Vegetales"]
+        nombre: 'Fulanito',
+        edad: 3,
+        comidasFavoritas: ['Pollo frito', 'vegetales'],
       };
 ```
 
@@ -267,13 +267,50 @@ R/ Es una losta de elementos, PERO cada elemento tiene un nombre clave. Ejemplo
 
 R/ Array es cuando lo que haremos en un elemento es lo mismo que en todos los demas (esta regla se puede incumplir). Mientras que un objeto cuando los nombres de cada elemento son importantes para nuestro algoritmo.
 
-
 ```¿Puedo mezclar arrays con objetos o incluso objetos con arrays?```
 
 R/ Si, los array pueden guardar objetos o incluso objetos con arrays
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
+Respuesta
+
+```js
+      function imprimirPrimerElemento Array(arr) {
+        console.log(arr[1])
+      }
+``` 
+
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 
+Respuesta
+
+```js
+      function imprimirElementoPorElemento(arr) {
+        for (let i = 0; i < arr.length; i++) {
+          console.log(arr[i])
+        }
+      }
+```
+
 ### 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+
+Respuesta
+
+```js
+      const obj = {
+        nombre: 'Fulanito',
+        edad: 3,
+        comidasFavoritas: ['Pollo frito', 'vegetales'],
+      };
+
+     function imprimirElementoPorElementoObjeto(obj) {
+        const arr = Object.values(obj);
+        for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+      }
+    }
+
+    imprimirElementoPorElementoObjeto(obj) 
+```
+
