@@ -156,9 +156,6 @@ if (tipoDeSuscripcion == "Free") {
 ```
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
 
-
-> 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
-
 Respuesta
 
 ```js
@@ -181,8 +178,29 @@ Respuesta
           } 
           console.warn("Este tipo de siscripcion no existe")
         }
+  ```
 
+> 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
 
+```js
+      const tiposDeSuscripciones = {
+        free: 'Solo puedes tomar los cursos gratis',
+        basic: 'Puedes tomar casi todos los cursos de Platzi durante un mes',
+        expert: 'Puedes tomar casi todos los cursos de Platzi durante un año',
+        expertduo: 'Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año',
+    };
+
+      function conseguirTipoSuscripcion(suscripcion) {
+        if (tiposDeSuscripciones[suscripcion]) {
+        console.log(tiposDeSuscripciones[suscripcion]);
+        return;
+      }
+
+     console.warn('Ese tipo de suscripción no existe')
+  }
+
+    conseguirTipoSuscripcion("free")
+```
 
 ## Ciclos
 
